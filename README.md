@@ -9,6 +9,7 @@ See in subfolders for further information.
 + [random_copy](random_copy/README.md)
 + [backup_raspi](backup_raspi/README.md)
 + [simple_samba](simple_samba/README.md)
++ [pi_mount](pi_mount/README.md)
 
 ## style guide
 Used [style guide](https://google.github.io/styleguide/shell.xml)
