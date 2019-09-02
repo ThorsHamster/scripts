@@ -6,7 +6,7 @@
 readonly RASPI_IP="127.0.0.1"
 readonly RASPI_PORT="22"
 readonly RASPI_USER="pi"
-readonly RASPI_BACKUP_FOLDER="/home/"${RASPI_USER}
+readonly RASPI_BACKUP_FOLDER="/home/"${RASPI_USER}/
 readonly RASPI_PASSWD_FILE="passwd.txt"
 readonly BACKUP_FOLDER_NAME="PI_Backup_""$(date +"%d-%m-%Y-%H-%M")"
 
