@@ -10,9 +10,9 @@ readonly RASPI_BACKUP_FOLDER="/home/"${RASPI_USER}/
 readonly RASPI_PASSWD_FILE="passwd.txt"
 readonly BACKUP_FOLDER_NAME="PI_Backup_""$(date +"%d-%m-%Y-%H-%M")"
 
-mkdir ${BACKUP_FOLDER_NAME}
+mkdir "${BACKUP_FOLDER_NAME}"
 
 sshpass -f "./${RASPI_PASSWD_FILE}" rsync -avr -e 'ssh -p '${RASPI_PORT} \
   --include ".ssh" \
   --exclude ".*/" ${RASPI_USER}@${RASPI_IP}:${RASPI_BACKUP_FOLDER} \
-  ./${BACKUP_FOLDER_NAME}
+  ./"${BACKUP_FOLDER_NAME}"

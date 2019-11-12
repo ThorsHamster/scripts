@@ -1,7 +1,7 @@
 # pi_mount
 
 ## Prerequisites
- - cifs-utils
+-  cifs-utils
 
 ## pi_mount.sh
 Mounts Raspberry Pi's samba share.
