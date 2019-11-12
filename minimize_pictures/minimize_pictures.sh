@@ -17,7 +17,7 @@ for file in ${files}; do
   current=$[${current}+1]
   orig_file=${SEARCH_FOLDER}/${file}
   rel=$(echo - | awk -v v1="${current}" -v v2="${count}" '{ print int(v1/v2*100)}')
-  echo [processing] "${current}"/${count} \("${rel}"%\) "${file}"
+  echo [processing] "${current}/${count}" \("${rel}"%\) "${file}"
   convert "${orig_file}" -sample ${SIZE} -auto-orient "${output_folder}/${file}"
 done
 echo [finished]
