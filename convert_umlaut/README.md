@@ -11,4 +11,3 @@ Replaces like follows:
 *   Ä to Ae
 *   Ö to Oe
 *   Ü to Ue
-

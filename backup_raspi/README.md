@@ -8,5 +8,4 @@ Set the port in RASPI_PORT and the user name in RASPI_USER. \
 Copy the password for RASPI_USER into passwd.txt.
 
 ## Prerequisites
--  sshpass
-
+-   sshpass
