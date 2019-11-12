@@ -1,3 +1,5 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/73b73270a7ae4877afba164069289836)](https://www.codacy.com/manual/hubert.flor/scripts?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ThorsHamster/scripts&amp;utm_campaign=Badge_Grade)
+
 # Collection of scripts
 
 See in subfolders for further information.
