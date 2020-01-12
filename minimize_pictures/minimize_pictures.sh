@@ -14,7 +14,7 @@ current=0
 mkdir -p ${output_folder}
 
 for file in ${files}; do
-  current=$[${current}+1]
+  current=$((current+1))
   orig_file=${SEARCH_FOLDER}/${file}
   rel=$(echo - | awk -v v1="${current}" -v v2="${count}" '{ print int(v1/v2*100)}')
   echo [processing] "${current}/${count}" \("${rel}"%\) "${file}"
