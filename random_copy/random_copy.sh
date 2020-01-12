@@ -22,7 +22,7 @@ find ${SOURCE} -type f -iname '*.mp3' | shuf |
   for ((M=0; M<MAXFOLDERS; M++)); do
     mkdir ${DESTINATION}${FOLDERNAME}$M
       for ((N=0; N<MAXSONGS; N++)); do
-        read line || break;
+        read -r line || break;
         mv -f "${line}" "${DESTINATION}${FOLDERNAME}$M"
         echo $N of ${MAXSONGS}
       done
